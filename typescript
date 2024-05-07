@@ -1,0 +1,646 @@
+Script started on 2024-05-01 13:07:35+03:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ,.[K[K./script.sh
+[?2004l1 - switchcase, 2 - pointer 1
+
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+-5 6
+error
+
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+/
+enter the first number: 
+6
+enter the second number: 
+0
+cannot be divided by 0
+
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+0
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./script.sh
+[?2004l1 - switchcase, 2 - pointer 2
+[01m[K2.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K2.c:5:9:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kpointer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+    5 |         [01;35m[Kpointer[m[K();
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K2.c:[m[K In function ‘[01m[Kpointer[m[K’:
+[01m[K2.c:38:56:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   38 |         float (*operation[])(float, float) = { ['+'] = [01;35m[Kaddup[m[K,['-'] = subtract,['*'] = multiply,['/'] = divide };
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K2.c:38:56:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[43][m[K’)
+[01m[K2.c:38:70:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   38 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = [01;35m[Ksubtract[m[K,['*'] = multiply,['/'] = divide };
+      |                                                                      [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:38:70:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[45][m[K’)
+[01m[K2.c:38:87:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   38 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = [01;35m[Kmultiply[m[K,['/'] = divide };
+      |                                                                                       [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:38:87:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[42][m[K’)
+[01m[K2.c:38:104:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   38 |        float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = multiply,['/'] = [01;35m[Kdivide[m[K };
+      |                                                                                                       [01;35m[K^~~~~~[m[K
+
+[01m[K2.c:38:104:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[47][m[K’)
+[01m[K2.c:63:25:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kexit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+   63 |                         [01;35m[Kexit[m[K(0);
+      |                         [01;35m[K^~~~[m[K
+[01m[K2.c:2:1:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+    1 | #include <stdio.h>
+  +++ |+[32m[K#include <stdlib.h>[m[K
+    2 | 
+[01m[K2.c:63:25:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch-Wbuiltin-declaration-mismatch]8;;[m[K]
+   63 |                         [01;35m[Kexit[m[K(0);
+      |                         [01;35m[K^~~~[m[K
+[01m[K2.c:63:25:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+^[[A^[[A        -5 6
+Error
+
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+-
+
+enter the first number: 
+5
+enter the second number: 
+6
+
+5 - 6 = -1
+
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+0
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./script.sh[7Pexit[2Plsgcc c -o switchcase switchcase.cls[K[K[Knano 2.c
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 92 lines ](B[m[H(B[0;7m  GNU nano 7.2                                               2.c                                                        [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[36m#include[33m <stdio.h>[4d(B[0m[32mint[39m(B[m main()[5d{[6;9Hpointer();[7;9H[35mreturn[39m(B[m 0;[8d}[10d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[11d{[12;9H[35mreturn[39m(B[m (a + b);[13d}[15d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[16d{[17;9H[35mreturn[39m(B[m (a - b);[18d}[20d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[21d{[22;9H[35mreturn[39m(B[m (a * b);[23d}[25d[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[26d{[27;9H(B[0;1m[33mif[39m(B[m (b == 0)[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[28d[K[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[1;66H(B[0;7m*[119G(B[m[3;27r[3;1HM[1;30r[4;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h(B[0;1m[36m#[39m(B[m[?25l[?12l[?25h#i[?25l[?12l[?25hn[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25hu[?25l[?12l[?25hd[?25l[?12l[?25h(B[0;1m[36m#include[39m(B[m[?25l[?12l[?25h.[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h ,[?25l[?12l[?25h.[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h <[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25hd[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25hb[?25l[?12l[?25h.[?25l[?12l[?25hh[?25l[?12l[?25h[4d[?25l[?12l[?25h[3;19H[?25l[?12l[?25h[3;9H(B[0;1m[33m <stdlib.h>[39m(B[m[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: 2.c(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;66H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 93 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ls
+[?2004l[0m[01;32m1[0m  [01;32m1.c[0m  [01;32m2[0m  [01;32m2.c[0m  [01;32mscript.sh[0m  [01;32mtypescript[0m
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ gcc -0 [K[Ko 2 2c[K.c
+[?2004l[01m[K2.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K2.c:6:9:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kpointer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+    6 |         [01;35m[Kpointer[m[K();
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K2.c:[m[K In function ‘[01m[Kpointer[m[K’:
+[01m[K2.c:39:56:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   39 |         float (*operation[])(float, float) = { ['+'] = [01;35m[Kaddup[m[K,['-'] = subtract,['*'] = multiply,['/'] = divide };
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K2.c:39:56:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[43][m[K’)
+[01m[K2.c:39:70:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   39 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = [01;35m[Ksubtract[m[K,['*'] = multiply,['/'] = divide };
+      |                                                                      [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:39:70:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[45][m[K’)
+[01m[K2.c:39:87:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   39 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = [01;35m[Kmultiply[m[K,['/'] = divide };
+      |                                                                                       [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:39:87:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[42][m[K’)
+[01m[K2.c:39:104:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   39 |        float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = multiply,['/'] = [01;35m[Kdivide[m[K };
+      |                                                                                                       [01;35m[K^~~~~~[m[K
+
+[01m[K2.c:39:104:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[47][m[K’)
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ gcc -o 2 2.cls[Knano 2.c
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 93 lines ](B[m[H(B[0;7m  GNU nano 7.2                                               2.c                                                        [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[36m#include[33m <stdio.h>[3d[36m#include[33m <stdlib.h>[5d(B[0m[32mint[39m(B[m main()[6d{[7;9Hpointer();[8;9H[35mreturn[39m(B[m 0;[9d}[11d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[12d{[13;9H[35mreturn[39m(B[m (a + b);[14d}[16d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[17d{[18;9H[35mreturn[39m(B[m (a - b);[19d}[21d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[22d{[23;9H[35mreturn[39m(B[m (a * b);[24d}[26d[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[27d{[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[1;66H(B[0;7m*[119G(B[m[4;27r[4;1HM[1;30r[5;1H[?12l[?25h[?25l[4;27r[4;1HM[1;30r[6;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h[32mint[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[28d[K[?12l[?25h[5;4H p[?25l[?12l[?25ho[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h([?25l[?12l[?25hv[?25l[?12l[?25ho[?25l[?12l[?25hi[?25l[?12l[?25h[32mvoid[39m(B[m[?25l[?12l[?25hvoid_[?25l[?12l[?25h[13G[32mvoid[39m(B[m[K[?25l[?12l[?25h)[?25l[?12l[?25h;[?25l7[6;28r8[6dM[1;30r[6;1H[?12l[?25h[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h[32mint[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h a[?25l[?12l[?25hd[?25l[?12l[?25hd[?25l[?12l[?25hu[?25l[?12l[?25hp[?25l[?12l[?25h([?25l[?12l[?25hf[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25ha[?25l[?12l[?25h[32mfloat[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h a[?25l[?12l[?25h,[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h f[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25ha[?25l[?12l[?25h[32mfloat[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h b[?25l[?12l[?25h)[?25l[?12l[?25h;[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: 2.c(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;66H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 96 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano 2.c
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 96 lines ](B[m[H(B[0;7m  GNU nano 7.2                                               2.c                                                        [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[36m#include[33m <stdio.h>[3d[36m#include[33m <stdlib.h>[5d(B[0m[32mint[39m(B[m pointer([32mvoid[39m(B[m);[6d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[8d[32mint[39m(B[m main()[9d{[10;9Hpointer();[11;9H[35mreturn[39m(B[m 0;[12d}[14d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[15d{[16;9H[35mreturn[39m(B[m (a + b);[17d}[19d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[20d{[21;9H[35mreturn[39m(B[m (a - b);[22d}[24d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[25d{[26;9H[35mreturn[39m(B[m (a * b);[27d}[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[1;115H(B[0;7mM   (B[m[?12l[?25h[19d(B[0;7mi(B[m[?25l[?12l[?25h(B[0;7mn(B[m[?25l[28d[K[?12l[?25h[19;3H(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7ms(B[m[?25l[?12l[?25h(B[0;7mu(B[m[?25l[?12l[?25h(B[0;7mb(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7mr(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mc(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7m((B[m[?25l[?12l[?25h(B[0;7mf(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mo(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7m,(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mf(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mo(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mb(B[m[?25l[?12l[?25h(B[0;7m)(B[m[?25l[1;66H(B[0;7m*[119G(B[m(B[0;7m    (B[m[20;27r[20;1HM[1;30r[19;1H[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[20d[?12l[?25h[?25l[20;28r[28;1H
+[1;30r[27;1H}[19;31H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[16;24H[?25l[?12l[?25h[A{[?25l[?12l[?25h[14;28H[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[11;18H[?25l[?12l[?25h[A;[?25l[?12l[?25h[A{[?25l[?12l[?25h[8;11H[?25l[?12l[?25h[A[?25l[?12l[?25h[6;29H[?25l[?12l[?25h[5;19H[?25l[?12l[?25h[6d[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h[7d[?25l7[7;27r8M[1;30r[8;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[8d[?25l[?12l[?25h[A[?25l[28;50H(B[0;1m[37m[41m[ Cutbuffer is empty ][39;49m(B[m[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[1;115H(B[0;7mM   (B[m[?12l[?25h[20d(B[0;7mi(B[m[?25l[?12l[?25h(B[0;7mn(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7ms(B[m[?25l[?12l[?25h(B[0;7mu(B[m[?25l[28d[K[?12l[?25h[20;7H(B[0;7mb(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7mr(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mc(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7m((B[m[?25l[?12l[?25h(B[0;7mf(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mo(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7m,(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mf(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mo(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mb(B[m[?25l[?12l[?25h(B[0;7m)(B[m[?25l[1;115H(B[0;7m    (B[m[20d[K[?12l[?25h[?25l[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[17;24H[?25l[?12l[?25h[A{[?25l[?12l[?25h[15;28H[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[12;18H[?25l[?12l[?25h[A;[?25l[?12l[?25h[A{[?25l[?12l[?25h[9;11H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?12l[?25h[?25l[?12l[?25h;[?25l[?12l[?25h[8d[?25l[?12l[?25h[9;11H[?25l[?12l[?25h[10d{[?25l[?12l[?25h[11;19H[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d}[?25l[?12l[?25h[14d[?25l[?12l[?25h[15;28H[?25l[?12l[?25h[16d{[?25l[?12l[?25h[17;24H[?25l[?12l[?25h[18d}[?25l[?12l[?25h[19d[?25l[?12l[?25h[20;31H[?25l[?12l[?25h[21d{[?25l[?12l[?25h[22;24H[?25l[?12l[?25h[23d}[?25l[?12l[?25h[24d[?25l[?12l[?25h[25;31H[?25l[1;115H(B[0;7mM   (B[m[?12l[?25h[25;30H(B[0;7m)(B[m[?25l[?12l[?25h(B[0;7mb(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mo(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mf(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7m,(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mo(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mf(B[m[?25l[?12l[?25h(B[0;7m((B[m[?25l[?12l[?25h(B[0;7my(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mp(B[m[?25l[?12l[?25h(B[0;7mi(B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mu(B[m[?25l[?12l[?25h(B[0;7mm(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7mn(B[m[?25l[?12l[?25h(B[0;7mi(B[m[?25l[1;115H(B[0;7m    (B[m[25d[K[?12l[?25h[?25l[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[22;24H[?25l[?12l[?25h[A{[?25l[?12l[?25h[20;31H[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[17;24H[?25l[?12l[?25h[A{[?25l[?12l[?25h[15;28H[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[12;18H[?25l[?12l[?25h[A;[?25l[?12l[?25h[A{[?25l[?12l[?25h[9;11H[?25l[?12l[?25h[A[?25l[?12l[?25h[7;31H[?25l[?12l[?25h;[?25l7[8;27r8[8dM[1;30r[8;1H[?12l[?25h[?25l[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?12l[?25h[?25l[?12l[?25h[9d[?25l[?12l[?25h[10;11H[?25l[?12l[?25h[11d{[?25l[?12l[?25h[12;19H[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d}[?25l[?12l[?25h[15d[?25l[?12l[?25h[16;28H[?25l[?12l[?25h[17d{[?25l[?12l[?25h[18;24H[?25l[?12l[?25h[19d}[?25l[?12l[?25h[20d[?25l[?12l[?25h[21;31H[?25l[?12l[?25h[22d{[?25l[?12l[?25h[23;24H[?25l[?12l[?25h[24d}[?25l[?12l[?25h[25d[?25l[?12l[?25h[26;31H[?25l[?12l[?25h[27d{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[35mreturn[39m(B[m (a * b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h[26;29H[?25l[?12l[?25h[27d{[?25l[?12l[?25h[26;29H[?25l[1;115H(B[0;7mM   (B[m[?12l[?25h[26;28H(B[0;7m)(B[m[?25l[?12l[?25h(B[0;7mb(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mo(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mf(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7m,(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7ma(B[m[?25l[?12l[?25h(B[0;7mo(B[m[?25l[?12l[?25h(B[0;7ml(B[m[?25l[?12l[?25h(B[0;7mf(B[m[?25l[?12l[?25h(B[0;7m((B[m[?25l[?12l[?25h(B[0;7me(B[m[?25l[?12l[?25h(B[0;7md(B[m[?25l[?12l[?25h(B[0;7mi(B[m[?25l[?12l[?25h(B[0;7mv(B[m[?25l[?12l[?25h(B[0;7mi(B[m[?25l[?12l[?25h(B[0;7md(B[m[?25l[?12l[?25h(B[0;7m (B[m[?25l[?12l[?25h(B[0;7mt(B[m[?25l[?12l[?25h(B[0;7mn(B[m[?25l[?12l[?25h(B[0;7mi(B[m[?25l[1;115H(B[0;7m    (B[m[26d[K[?12l[?25h[?25l[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[23;24H[?25l[?12l[?25h[A{[?25l[?12l[?25h[21;29H[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[18;24H[?25l[?12l[?25h[A{[?25l[?12l[?25h[16;29H[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[13;24H[?25l[?12l[?25h[A{[?25l[?12l[?25h[11;28H[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[8;18H[?25l[?12l[?25h[A;[?25l[?12l[?25h[A{[?25l[?12l[?25h[5;11H[?25l[?12l[?25h[A[?25l[?12l[?25h[3;29H[?25l[?12l[?25h[4d[?25l7[4;27r8M[1;30r[5;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?12l[?25h[?25l[?12l[?25h;[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: 2.c(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;66H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 99 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano 2.c[4@gcc -o 2[C[C[C[C
+[?2004l[01m[K2.c:[m[K In function ‘[01m[Kmultiply[m[K’:
+[01m[K2.c:11:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   11 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K2.c:17:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   17 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K2.c:22:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   22 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K2.c:27:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   27 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K2.c:32:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   32 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K2.c:42:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K{[m[K’ token
+   42 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K2.c:7:5:[m[K [01;31m[Kerror: [m[Kold-style parameter declarations in prototyped function definition
+    7 | int [01;31m[Kmultiply[m[K(float a, float b)
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K2.c:100:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ gcc -o 2 2.c[4Pnano[C[C[C[C
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 99 lines ](B[m[H(B[0;7m  GNU nano 7.2                                               2.c                                                        [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[36m#include[33m <stdio.h>[3d[36m#include[33m <stdlib.h>[5d(B[0m[32mint[39m(B[m pointer([32mvoid[39m(B[m);[6d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[7d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[8d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[9d[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[11d[32mint[39m(B[m main()[12d{[13;9Hpointer();[14;9H[35mreturn[39m(B[m 0;[15d}[17d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[18d{[19;9H[35mreturn[39m(B[m (a + b);[20d}[22d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[23d{[24;9H[35mreturn[39m(B[m (a - b);[25d}[27d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[28d[K[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[C[?25l[?12l[?25h[8d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25hp[?25l[?12l[?25hl[?25l[?12l[?25hy[?25l[?12l[?25h([?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25h,[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25h)[?25l[1;66H(B[0;7m*[119G(B[m[?12l[?25h[8;31H;[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: 2.c(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;66H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 99 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano 2.c[4@gcc -o 2[C[C[C[C
+[?2004l[01m[K2.c:[m[K In function ‘[01m[Kpointer[m[K’:
+[01m[K2.c:45:56:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |         float (*operation[])(float, float) = { ['+'] = [01;35m[Kaddup[m[K,['-'] = subtract,['*'] = multiply,['/'] = divide };
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K2.c:45:56:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[43][m[K’)
+[01m[K2.c:45:70:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = [01;35m[Ksubtract[m[K,['*'] = multiply,['/'] = divide };
+      |                                                                      [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:45:70:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[45][m[K’)
+[01m[K2.c:45:87:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = [01;35m[Kmultiply[m[K,['/'] = divide };
+      |                                                                                       [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:45:87:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[42][m[K’)
+[01m[K2.c:45:104:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |        float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = multiply,['/'] = [01;35m[Kdivide[m[K };
+      |                                                                                                       [01;35m[K^~~~~~[m[K
+
+[01m[K2.c:45:104:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[47][m[K’)
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./2
+[?2004l
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+-5 6
+Error
+
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+-
+
+enter the first number: 
+5
+enter the second number: 
+6
+
+5 - 6 = -1
+
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+0
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ clear[2P./2gcc -o 2 2.c[4Pnano[C[C[C[C
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 99 lines ](B[m[H(B[0;7m  GNU nano 7.2                                               2.c                                                        [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[36m#include[33m <stdio.h>[3d[36m#include[33m <stdlib.h>[5d(B[0m[32mint[39m(B[m pointer([32mvoid[39m(B[m);[6d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[7d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[8d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[9d[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[11d[32mint[39m(B[m main()[12d{[13;9Hpointer();[14;9H[35mreturn[39m(B[m 0;[15d}[17d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[18d{[19;9H[35mreturn[39m(B[m (a + b);[20d}[22d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[23d{[24;9H[35mreturn[39m(B[m (a - b);[25d}[27d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[28d[K[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[35mreturn[39m(B[m (a * b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H(B[0;1m[33mif[39m(B[m (b == 0)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"cannot be divided by 0"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H[35mreturn[39m(B[m (a / b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mint[39m(B[m pointer()[42m [49m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[32mchar[39m(B[m o;[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[32mfloat[39m(B[m a, b,c;[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[32mfloat[39m(B[m (*operation[])([32mfloat[39m(B[m, [32mfloat[39m(B[m) = { [(B[0;1m[35m'+'[39m(B[m] = addup,[(B[0;1m[35m'-'[39m(B[m] = subtract,[(B[0;1m[35m'*'[39m(B[m] = multiply,[(B[0;1m[35m'/'[39m(B[m] = divide };[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H(B[0;1m[33mwhile[39m(B[m (10 > 0)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"\nwhat you want to do?\n"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"enter:\n+ to add up;\n- to subtract;\n* to multiply;\n/ to divide;\n 0 to exit;\n"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hscanf((B[0;1m[33m" %c"[39m(B[m, &o);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[34m//если было введено больше 1 символа[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (getchar() != (B[0;1m[35m'\n'[39m(B[m) {[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hprintf((B[0;1m[33m"Error\n"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[34m// Очистка буфера ввода[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[33mwhile[39m(B[m (getchar() != (B[0;1m[35m'\n'[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H[35mcontinue[39m(B[m; (B[0;1m[34m// Повторяем ввод заново[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o != (B[0;1m[35m'+'[39m(B[m && o != (B[0;1m[35m'-'[39m(B[m && o != (B[0;1m[35m'*'[39m(B[m && o != (B[0;1m[35m'/'[39m(B[m && o != (B[0;1m[35m'0'[39m(B[m)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hputs((B[0;1m[33m"\nerror"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hpointer();[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o == (B[0;1m[35m'0'[39m(B[m)[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m pointer()[42m [49m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H[35mreturn[39m(B[m (a / b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H}[?25l[?12l[?25h7[2;28r8M[1;30r[2;17Hputs((B[0;1m[33m"cannot be divided by 0"[39m(B[m);[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H(B[0;1m[33mif[39m(B[m (b == 0)[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[35mreturn[39m(B[m (a * b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[35mreturn[39m(B[m (a - b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[35mreturn[39m(B[m (a + b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[35mreturn[39m(B[m 0;[?25l[?12l[?25h7[2;27r8M[1;30r[2;9Hpointer();[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m main()[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[32mint[39m(B[m pointer([32mvoid[39m(B[m);[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25ho[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h([?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h)[?25l[?12l[?25h[?25l[1;66H(B[0;7m*[119G(B[m[?12l[?25h[2;13Hvoi);[K[?25l[?12l[?25h);[K[?25l[?12l[?25h);[K[?25l[?12l[?25h);[K[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: 2.c(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;66H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 99 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano 2.c[3Pclear[2P./2gcc -o 2 2.c
+[?2004l[01m[K2.c:[m[K In function ‘[01m[Kpointer[m[K’:
+[01m[K2.c:45:56:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |         float (*operation[])(float, float) = { ['+'] = [01;35m[Kaddup[m[K,['-'] = subtract,['*'] = multiply,['/'] = divide };
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K2.c:45:56:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[43][m[K’)
+[01m[K2.c:45:70:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = [01;35m[Ksubtract[m[K,['*'] = multiply,['/'] = divide };
+      |                                                                      [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:45:70:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[45][m[K’)
+[01m[K2.c:45:87:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = [01;35m[Kmultiply[m[K,['/'] = divide };
+      |                                                                                       [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:45:87:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[42][m[K’)
+[01m[K2.c:45:104:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |        float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = multiply,['/'] = [01;35m[Kdivide[m[K };
+      |                                                                                                       [01;35m[K^~~~~~[m[K
+
+[01m[K2.c:45:104:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[47][m[K’)
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ gcc -o 2 2.c[4Pnano[C[C[C[C
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 99 lines ](B[m[H(B[0;7m  GNU nano 7.2                                               2.c                                                        [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[36m#include[33m <stdio.h>[3d[36m#include[33m <stdlib.h>[5d(B[0m[32mint[39m(B[m pointer();[6d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[7d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[8d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[9d[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[11d[32mint[39m(B[m main()[12d{[13;9Hpointer();[14;9H[35mreturn[39m(B[m 0;[15d}[17d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[18d{[19;9H[35mreturn[39m(B[m (a + b);[20d}[22d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[23d{[24;9H[35mreturn[39m(B[m (a - b);[25d}[27d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[28d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[35mreturn[39m(B[m (a * b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H(B[0;1m[33mif[39m(B[m (b == 0)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"cannot be divided by 0"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H[35mreturn[39m(B[m (a / b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mint[39m(B[m pointer()[42m [49m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[32mchar[39m(B[m o;[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[32mfloat[39m(B[m a, b,c;[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[?25l[1;66H(B[0;7m*[119G(B[m[?12l[?25h[24din[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf pointer()[42m [C[49m(B[m[?25l[?12l[?25hl pointer()[42m [3G[49m(B[m[?25l[?12l[?25ho pointer()[42m [4G[49m(B[m[?25l[?12l[?25ha pointer()[42m [5G[49m(B[m[?25l[?12l[?25h[32mfloat[39m(B[m pointer()[42m [6G[49m(B[m[?25l[?12l[?25h[25d{[?25l[?12l[?25h[24;6H[?25l[?12l[?25h[25d{[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[32mfloat[39m(B[m (*operation[])([32mfloat[39m(B[m, [32mfloat[39m(B[m) = { [(B[0;1m[35m'+'[39m(B[m] = addup,[(B[0;1m[35m'-'[39m(B[m] = subtract,[(B[0;1m[35m'*'[39m(B[m] = multiply,[(B[0;1m[35m'/'[39m(B[m] = divide };[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H(B[0;1m[33mwhile[39m(B[m (10 > 0)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"\nwhat you want to do?\n"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"enter:\n+ to add up;\n- to subtract;\n* to multiply;\n/ to divide;\n 0 to exit;\n"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hscanf((B[0;1m[33m" %c"[39m(B[m, &o);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[34m//если было введено больше 1 символа[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (getchar() != (B[0;1m[35m'\n'[39m(B[m) {[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hprintf((B[0;1m[33m"Error\n"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[34m// Очистка буфера ввода[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[33mwhile[39m(B[m (getchar() != (B[0;1m[35m'\n'[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H[35mcontinue[39m(B[m; (B[0;1m[34m// Повторяем ввод заново[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o != (B[0;1m[35m'+'[39m(B[m && o != (B[0;1m[35m'-'[39m(B[m && o != (B[0;1m[35m'*'[39m(B[m && o != (B[0;1m[35m'/'[39m(B[m && o != (B[0;1m[35m'0'[39m(B[m)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hputs((B[0;1m[33m"\nerror"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hpointer();[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o == (B[0;1m[35m'0'[39m(B[m)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[34m//choice();[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hexit(0);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"\nenter the first number: "[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hscanf((B[0;1m[33m"%f"[39m(B[m, &a);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"enter the second number: "[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hscanf((B[0;1m[33m"%f"[39m(B[m, &b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hc = operation[o](a, b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o == (B[0;1m[35m'+'[39m(B[m)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hprintf((B[0;1m[33m"\n%g + %g = %g\n"[39m(B[m, a, b, c);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o == (B[0;1m[35m'-'[39m(B[m)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hprintf((B[0;1m[33m"\n%g - %g = %g\n"[39m(B[m, a, b, c);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o == (B[0;1m[35m'*'[39m(B[m)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hprintf((B[0;1m[33m"\n%g * %g = %g\n"[39m(B[m, a, b, c);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o == (B[0;1m[35m'/'[39m(B[m)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[33mif[39m(B[m (b != 0)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;33Hprintf((B[0;1m[33m"\n%g / %g = %g\n"[39m(B[m, a, b, c);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;33Hputs((B[0;1m[33m"error"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h[?25l[?12l[?25h[A}[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;28r8M[1;30r[2;17Hputs((B[0;1m[33m"enter the second number: "[39m(B[m);[?25l[?12l[?25h7[2;27r8M[1;30r[2;17Hscanf((B[0;1m[33m"%f"[39m(B[m, &a);[?25l[?12l[?25h7[2;27r8M[1;30r[2;17Hputs((B[0;1m[33m"\nenter the first number: "[39m(B[m);[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;25Hexit(0);[?25l[?12l[?25h7[2;27r8M[1;30r[2;25H(B[0;1m[34m//choice();[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H(B[0;1m[33mif[39m(B[m (o == (B[0;1m[35m'0'[39m(B[m)[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;25Hpointer();[?25l[?12l[?25h7[2;27r8M[1;30r[2;25Hputs((B[0;1m[33m"\nerror"[39m(B[m);[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H(B[0;1m[33mif[39m(B[m (o != (B[0;1m[35m'+'[39m(B[m && o != (B[0;1m[35m'-'[39m(B[m && o != (B[0;1m[35m'*'[39m(B[m && o != (B[0;1m[35m'/'[39m(B[m && o != (B[0;1m[35m'0'[39m(B[m)[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;25H[35mcontinue[39m(B[m; (B[0;1m[34m// Повторяем ввод заново[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;25H(B[0;1m[33mwhile[39m(B[m (getchar() != (B[0;1m[35m'\n'[39m(B[m);[?25l[?12l[?25h7[2;27r8M[1;30r[2;25H(B[0;1m[34m// Очистка буфера ввода[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;25Hprintf((B[0;1m[33m"Error\n"[39m(B[m);[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H(B[0;1m[33mif[39m(B[m (getchar() != (B[0;1m[35m'\n'[39m(B[m) {[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H(B[0;1m[34m//если было введено больше 1 символа[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;17Hscanf((B[0;1m[33m" %c"[39m(B[m, &o);[?25l[?12l[?25h7[2;27r8M[1;30r[2;17Hputs((B[0;1m[33m"enter:\n+ to add up;\n- to subtract;\n* to multiply;\n/ to divide;\n 0 to exit;\n"[39m(B[m);[?25l[?12l[?25h7[2;27r8M[1;30r[2;17Hputs((B[0;1m[33m"\nwhat you want to do?\n"[39m(B[m);[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H(B[0;1m[33mwhile[39m(B[m (10 > 0)[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[32mfloat[39m(B[m (*operation[])([32mfloat[39m(B[m, [32mfloat[39m(B[m) = { [(B[0;1m[35m'+'[39m(B[m] = addup,[(B[0;1m[35m'-'[39m(B[m] = subtract,[(B[0;1m[35m'*'[39m(B[m] = multiply,[(B[0;1m[35m'/'[39m(B[m] = divide };[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[32mfloat[39m(B[m a, b,c;[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[32mchar[39m(B[m o;[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mfloat[39m(B[m pointer()[42m [6G[49m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;17H[35mreturn[39m(B[m (a / b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H}[?25l[?12l[?25h7[2;28r8M[1;30r[2;17Hputs((B[0;1m[33m"cannot be divided by 0"[39m(B[m);[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H(B[0;1m[33mif[39m(B[m (b == 0)[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[6G[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[35mreturn[39m(B[m (a * b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[6G[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[35mreturn[39m(B[m (a - b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[6G[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[35mreturn[39m(B[m (a + b);[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[6G[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H}[?25l[?12l[?25h7[2;27r8M[1;30r[2;9H[35mreturn[39m(B[m 0;[?25l[?12l[?25h7[2;27r8M[1;30r[2;9Hpointer();[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H{[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m main()[6G[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[6G[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[6G[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[6G[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[6G[?25l[?12l[?25h7[2;28r8M[1;30r[2;1H[32mint[39m(B[m pointer();[6G[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H(B[0;1m[36m#include[33m <stdlib.h>[6G[39m(B[m[?25l[?12l[?25h7[2;27r8M[1;30r[2;1H(B[0;1m[36m#include[33m <stdio.h>[6G[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5;6H[?25l[?12l[?25h[6d[?25l[?12l[?25h[A[?25l[?12l[?25ho[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hin[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf pointer();f[?25l[?12l[?25hl pointer();fl[?25l[?12l[?25ho pointer();flo[?25l[?12l[?25ha pointer();[5G[?25l[?12l[?25h[32mfloat[39m(B[m pointer();[6G[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: 2.c(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;66H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 99 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano 2.c[4@gcc -o 2[C[C[C[C
+[?2004l[01m[K2.c:[m[K In function ‘[01m[Kpointer[m[K’:
+[01m[K2.c:45:56:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |         float (*operation[])(float, float) = { ['+'] = [01;35m[Kaddup[m[K,['-'] = subtract,['*'] = multiply,['/'] = divide };
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K2.c:45:56:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[43][m[K’)
+[01m[K2.c:45:70:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = [01;35m[Ksubtract[m[K,['*'] = multiply,['/'] = divide };
+      |                                                                      [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:45:70:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[45][m[K’)
+[01m[K2.c:45:87:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |         float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = [01;35m[Kmultiply[m[K,['/'] = divide };
+      |                                                                                       [01;35m[K^~~~~~~~[m[K
+[01m[K2.c:45:87:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[42][m[K’)
+[01m[K2.c:45:104:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kfloat (*)(float,  float)[m[K’ from incompatible pointer type ‘[01m[Kint (*)(float,  float)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   45 |        float (*operation[])(float, float) = { ['+'] = addup,['-'] = subtract,['*'] = multiply,['/'] = [01;35m[Kdivide[m[K };
+      |                                                                                                       [01;35m[K^~~~~~[m[K
+
+[01m[K2.c:45:104:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[Koperation[47][m[K’)
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ gcc -o 2 2.c[4Pnano[C[C[C[C[4@gcc -o 2[C[C[C[C[4Pnano[C[C[C[C[3Pclearnano 2.c
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 99 lines ](B[m[H(B[0;7m  GNU nano 7.2                                               2.c                                                        [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[36m#include[33m <stdio.h>[3d[36m#include[33m <stdlib.h>[5d(B[0m[32mfloat[39m(B[m pointer();[6d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[7d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[8d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[9d[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[11d[32mint[39m(B[m main()[12d{[13;9Hpointer();[14;9H[35mreturn[39m(B[m 0;[15d}[17d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[18d{[19;9H[35mreturn[39m(B[m (a + b);[20d}[22d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[23d{[24;9H[35mreturn[39m(B[m (a - b);[25d}[27d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[28d[K[?12l[?25h[17;4H[?25l[1;66H(B[0;7m*[119G(B[m[?12l[?25h[17din[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)f[?25l[?12l[?25hl addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)fl[?25l[?12l[?25ho addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)flo[?25l[?12l[?25ha addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[5G[?25l[?12l[?25h[32mfloat[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[6G[?25l[?12l[?25h[18d{[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d}[?25l[?12l[?25h[21d[?25l[?12l[?25h[22;6H[?25l[?12l[?25hu[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hin[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)f[?25l[?12l[?25hl subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)fl[?25l[?12l[?25ho subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)flo[?25l[?12l[?25ha subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[5G[?25l[?12l[?25h[32mfloat[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[6G[?25l[?12l[?25h[23d{[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d}[?25l[?12l[?25h[26d[?25l[?12l[?25h[27;6H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hin[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)f[?25l[?12l[?25hl multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)fl[?25l[?12l[?25ho multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)flo[?25l[?12l[?25ha multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[5G[?25l[?12l[?25h[32mfloat[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[6G[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[35mreturn[39m(B[m (a * b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[6G[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H(B[0;1m[33mif[39m(B[m (b == 0)[?25l[?12l[?25h[A{[?25l[?12l[?25h[25;6H[?25l[?12l[?25hi[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25hin[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)f[?25l[?12l[?25hl divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)fl[?25l[?12l[?25ho divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)flo[?25l[?12l[?25ha divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[5G[?25l[?12l[?25h[32mfloat[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[6G[?25l[?12l[?25h[26d{[?25l[?12l[?25h[27d[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"cannot be divided by 0"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H[35mreturn[39m(B[m (a / b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[32mfloat[39m(B[m pointer()[42m [6G[49m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[32mchar[39m(B[m o;[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[32mfloat[39m(B[m a, b,c;[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H[32mfloat[39m(B[m (*operation[])([32mfloat[39m(B[m, [32mfloat[39m(B[m) = { [(B[0;1m[35m'+'[39m(B[m] = addup,[(B[0;1m[35m'-'[39m(B[m] = subtract,[(B[0;1m[35m'*'[39m(B[m] = multiply,[(B[0;1m[35m'/'[39m(B[m] = divide };[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H(B[0;1m[33mwhile[39m(B[m (10 > 0)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;9H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"\nwhat you want to do?\n"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"enter:\n+ to add up;\n- to subtract;\n* to multiply;\n/ to divide;\n 0 to exit;\n"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hscanf((B[0;1m[33m" %c"[39m(B[m, &o);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[34m//если было введено больше 1 символа[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (getchar() != (B[0;1m[35m'\n'[39m(B[m) {[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hprintf((B[0;1m[33m"Error\n"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[34m// Очистка буфера ввода[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[33mwhile[39m(B[m (getchar() != (B[0;1m[35m'\n'[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H[35mcontinue[39m(B[m; (B[0;1m[34m// Повторяем ввод заново[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;1H[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o != (B[0;1m[35m'+'[39m(B[m && o != (B[0;1m[35m'-'[39m(B[m && o != (B[0;1m[35m'*'[39m(B[m && o != (B[0;1m[35m'/'[39m(B[m && o != (B[0;1m[35m'0'[39m(B[m)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hputs((B[0;1m[33m"\nerror"[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hpointer();[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o == (B[0;1m[35m'0'[39m(B[m)[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H{[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25H(B[0;1m[34m//choice();[39m(B[m[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;25Hexit(0);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H}[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"\nenter the first number: "[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hscanf((B[0;1m[33m"%f"[39m(B[m, &a);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hputs((B[0;1m[33m"enter the second number: "[39m(B[m);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hscanf((B[0;1m[33m"%f"[39m(B[m, &b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17Hc = operation[o](a, b);[?25l[?12l[?25h7[2;28r8[28d
+[1;30r[27;17H(B[0;1m[33mif[39m(B[m (o == (B[0;1m[35m'+'[39m(B[m)[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: 2.c(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;66H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 99 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano 2.c
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 99 lines ](B[m[H(B[0;7m  GNU nano 7.2                                               2.c                                                        [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[36m#include[33m <stdio.h>[3d[36m#include[33m <stdlib.h>[5d(B[0m[32mfloat[39m(B[m pointer();[6d[32mint[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[7d[32mint[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[8d[32mint[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[9d[32mint[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[11d[32mint[39m(B[m main()[12d{[13;9Hpointer();[14;9H[35mreturn[39m(B[m 0;[15d}[17d[32mfloat[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[18d{[19;9H[35mreturn[39m(B[m (a + b);[20d}[22d[32mfloat[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[23d{[24;9H[35mreturn[39m(B[m (a - b);[25d}[27d[32mfloat[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b)[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[28d[K[?12l[?25h[2d[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;66H(B[0;7m*[119G(B[m[?12l[?25h[6din[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);f[?25l[?12l[?25hl addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);fl[?25l[?12l[?25ho addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);flo[?25l[?12l[?25ha addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[5G[?25l[?12l[?25h[32mfloat[39m(B[m addup([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[6G[?25l[?12l[?25h[7d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hin[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);f[?25l[?12l[?25hl subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);fl[?25l[?12l[?25ho subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);flo[?25l[?12l[?25ha subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[5G[?25l[?12l[?25h[32mfloat[39m(B[m subtract([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[6G[?25l[?12l[?25h[8d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hin[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);f[?25l[?12l[?25hl multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);fl[?25l[?12l[?25ho multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);flo[?25l[?12l[?25ha multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[5G[?25l[?12l[?25h[32mfloat[39m(B[m multiply([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[6G[?25l[?12l[?25h[9d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hin[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hf divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);f[?25l[?12l[?25hl divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);fl[?25l[?12l[?25ho divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);flo[?25l[?12l[?25ha divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[5G[?25l[?12l[?25h[32mfloat[39m(B[m divide([32mfloat[39m(B[m a, [32mfloat[39m(B[m b);[6G[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: 2.c(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;66H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 99 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano 2.c[4@gcc -o 2[C[C[C[C
+[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./2
+[?2004l
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+-5 6
+Error
+
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+-
+
+enter the first number: 
+5
+enter the second number: 
+6
+
+5 - 6 = -1
+
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+0
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ls
+[?2004l[0m[01;32m1[0m  [01;32m1.c[0m  [01;32m2[0m  [01;32m2.c[0m  [01;32mscript.sh[0m  [01;32mtypescript[0m
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./scropt[K[K[Ki[K[K[K[K[K[Knano script.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            script.sh                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m#!/bin/bash[4d[32mread(B[0;1m[35m -p[39m(B[m (B[0;1m[33m"1 - switchcase, 2 - pointer "[39m(B[m choice[6d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"1"[39m(B[m [32m];[39m(B[m [32mthen[7;5H[39m(B[mgcc 1.c(B[0;1m[35m -o[39m(B[m 1[8;5H./1[9d[32melif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"2"[39m(B[m [32m];[39m(B[m [32mthen[10;5H[39m(B[mgcc 2.c(B[0;1m[35m -o[39m(B[m 2[11;5H./2[12d[32melse[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"error"[14d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[28d[K[?12l[?25h[4;19H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[4;25H[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33m\2 - pointer "[39m(B[m choice[4;25H[?25l[?12l[?25h(B[0;1m[33mn2 - pointer "[39m(B[m choice[4;26H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h[4;9H"1 - switchcase[32m\[39m(B[mn2 - pointer[32m\[39m(B[m" choice[4;38H[?25l[?12l[?25h[4;9H(B[0;1m[33m"1 - switchcase\n2 - pointer\n"[39m(B[m choice[4;39H[?25l[?12l[?25h[5d[?25l[?12l[?25h[6;30H[?25l[?12l[?25h[7;17H[?25l[?12l[?25h[8;8H[?25l[?12l[?25h[9;32H[?25l[?12l[?25h[10;17H[?25l[?12l[?25h[11;8H[?25l[?12l[?25h[12;5H[?25l[?12l[?25h[13;17H[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: script.sh(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 13 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ scripth.sh
+[?2004lbash: scripth.sh: command not found
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ scripth.shnano script.sh[4Pscripth.sh.scripth.sh/scripth.sh
+[?2004lbash: ./scripth.sh: No such file or directory
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./scripth.sh[1P.sh
+[?2004l1 - switchcase\n2 - pointer\n0
+error
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./script.shh.sh[2Pscripth.shnano script.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            script.sh                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m#!/bin/bash[4d[32mread(B[0;1m[35m -p[39m(B[m (B[0;1m[33m"1 - switchcase\n2 - pointer\n"[39m(B[m choice[6d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"1"[39m(B[m [32m];[39m(B[m [32mthen[7;5H[39m(B[mgcc 1.c(B[0;1m[35m -o[39m(B[m 1[8;5H./1[9d[32melif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"2"[39m(B[m [32m];[39m(B[m [32mthen[10;5H[39m(B[mgcc 2.c(B[0;1m[35m -o[39m(B[m 2[11;5H./2[12d[32melse[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"error"[14d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[28d[K[?12l[?25h[4;19H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[4;25H[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33m 2 - pointer\n"[39m(B[m choice[4;25H[?25l7[5;28r8[5dM[1;30r[4;9H"1 - switchcase[42m [49m(B[m[K[5d2 - pointer[32m\[39m(B[mn" choice[?12l[?25h[?25l[28;48H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[5d[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ 
+[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano script.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            script.sh                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m#!/bin/bash[4d[32mread(B[0;1m[35m -p[39m(B[m (B[0;1m[33m"1 - switchcase\n2 - pointer\n"[39m(B[m choice[6d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"1"[39m(B[m [32m];[39m(B[m [32mthen[7;5H[39m(B[mgcc 1.c(B[0;1m[35m -o[39m(B[m 1[8;5H./1[9d[32melif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"2"[39m(B[m [32m];[39m(B[m [32mthen[10;5H[39m(B[mgcc 2.c(B[0;1m[35m -o[39m(B[m 2[11;5H./2[12d[32melse[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"error"[14d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[4;5H -rp (B[0;1m[33m"1 - switchcase\n2 - pointer\n"[39m(B[m choice[8G[?25l[?12l[?25hep (B[0;1m[33m"1 - switchcase\n2 - pointer\n"[39m(B[m choice[4;9H[?25l[?12l[?25h[5d[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: script.sh(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 13 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano script.sh[3P./script.sh
+[?2004l[?2004h1 - switchcase\n2 - pointer\n0
+[?2004lerror
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./script.shnano script.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            script.sh                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m#!/bin/bash[4d[32mread[39m(B[m -rep (B[0;1m[33m"1 - switchcase\n2 - pointer\n"[39m(B[m choice[6d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"1"[39m(B[m [32m];[39m(B[m [32mthen[7;5H[39m(B[mgcc 1.c(B[0;1m[35m -o[39m(B[m 1[8;5H./1[9d[32melif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"2"[39m(B[m [32m];[39m(B[m [32mthen[10;5H[39m(B[mgcc 2.c(B[0;1m[35m -o[39m(B[m 2[11;5H./2[12d[32melse[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"error"[14d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hp[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[4;11H1 - switchcase[32m\[39m(B[mn2 - pointer[32m\[39m(B[mn"[1P[4;11H[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m - switchcase[32m\[39m(B[mn2 - pointer[32m\[39m(B[mn" choice[4;12H[?25l[?12l[?25h[32m$[39m(B[m'1 - switchcase[32m\[39m(B[mn2 - pointer[32m\[39m(B[mn" choice[4;13H[?25l[?12l[?25h1[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[28d[K[?12l[?25h[4;17H[?25l[?12l[?25hs[?25l[?12l[?25hw[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25hc[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25h[C[?25l[?12l[?25hn[?25l[?12l[?25h2[?25l[?12l[?25h [?25l[?12l[?25h-[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25ho[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h[C[?25l[?12l[?25hn[?25l[?12l[?25h"[?25l[?12l[?25h [?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[4;12H(B[0;1m[33m'1 - switchcase\n2 - pointer\n'[39m(B[mchoice[43G[?25l[?12l[?25h choice[44G[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: script.sh(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 13 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano script.sh[3P./script.sh
+[?2004l[?2004h1 - switchcase
+2 - pointer
+1
+[?2004l
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+-5 6
+error
+
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+t
+
+error
+
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+/
+enter the first number: 
+3
+enter the second number: 
+0
+cannot be divided by 0
+
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+0
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./script.sh
+[?2004l[?2004h1 - switchcase
+2 - pointer
+1
+[?2004l
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+/0
+error
+
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+/
+enter the first number: 
+0
+enter the second number: 
+3
+
+0 / 3 = 0
+
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+0
+[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./script.shnano script.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m  GNU nano 7.2                                            script.sh                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[36m#!/bin/bash[4d[32mread[39m(B[m -rep [32m$(B[0;1m[33m'1 - switchcase\n2 - pointer\n'[39m(B[m choice[6d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"1"[39m(B[m [32m];[39m(B[m [32mthen[7;5H[39m(B[mgcc 1.c(B[0;1m[35m -o[39m(B[m 1[8;5H./1[9d[32melif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$choice"[39m(B[m [32m==[39m(B[m (B[0;1m[33m"2"[39m(B[m [32m];[39m(B[m [32mthen[10;5H[39m(B[mgcc 2.c(B[0;1m[35m -o[39m(B[m 2[11;5H./2[12d[32melse[13d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"error"[14d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[A  [?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[28d[K[?12l[?25h[14;3H[?25l[?12l[?25h[15d[?25l[1;69H(B[0;7m*[119G(B[m[16d[?12l[?25h[?25l[?12l[?25h.[?25l[?12l[?25h/[?25l[?12l[?25hs[?25l[?12l[?25hc[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hp[?25l[?12l[?25ht[?25l[?12l[?25h.[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h[A[?25l[?12l[?25h[14;3H[?25l[?12l[?25h[13;12H[?25l[?12l[?25h[12;5H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[11;8H[?25l7[12;28r8[12dM[1;30r[12;1H[?12l[?25h[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25h[32melif[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m[[39m(B[m[?25l[?12l[?25h[32m][39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h [32m][39m(B[m[?25l[?12l[?25h"[32m][39m(B[m[?25l[?12l[?25h(B[0;1m[33m""(B[0m[32m][39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m$"(B[0m[32m][39m(B[m[?25l[?12l[?25h(B[0;1m[33mc"(B[0m[32m][39m(B[m[?25l[?12l[?25h(B[0;1m[33mh"(B[0m[32m][39m(B[m[?25l[?12l[?25h(B[0;1m[33mo"(B[0m[32m][39m(B[m[?25l[?12l[?25h(B[0;1m[33mi"(B[0m[32m][39m(B[m[?25l[?12l[?25h(B[0;1m[33mc"(B[0m[32m][39m(B[m[?25l[?12l[?25h(B[0;1m[33me"(B[0m[32m][39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h [32m][39m(B[m[?25l[?12l[?25h[32m=][39m(B[m[?25l[?12l[?25h[32m==][39m(B[m[?25l[?12l[?25h [32m][39m(B[m[?25l[?12l[?25h"[32m][39m(B[m[?25l[?12l[?25h(B[0;1m[33m""(B[0m[32m][39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m0"(B[0m[32m][39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h [32m][39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[32m;[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25h[32mthen[39m(B[m[?25l7[13;28r8[13dM[1;30r[13;1H[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[K[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h    e[?25l[?12l[?25hx[?25l[?12l[?25hi[?25l[?12l[?25h[32mexit[39m(B[m[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: script.sh(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 17 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ nano script.sh[3P./script.sh
+[?2004l[?2004h1 - switchcase
+2 - pointer
+0
+[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/DebianShell/LR_05[01;32mleosha@lptp-dllg515[00m:[01;34m/mnt/c/DebianShell/LR_05[00m$ ./script.sh
+[?2004l[?2004h1 - switchcase
+2 - pointer
+1
+[?2004l
+what you want to do?
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+0
+[?2004h1 - switchcase
+2 - pointer
+2
+[?2004l
+what you want to do?
+
+enter:
++ to add up;
+- to subtract;
+* to multiply;
+/ to divide;
+ 0 to exit;
+
+0
+[?2004h1 - switchcase
+2 - pointer
+g
+[?2004lerror
+[?2004h1 - switchcase
+2 - pointer
+g
+[?2004lerror
+[?2004h1 - switchcase
+2 - pointer
+gaf
+[?2004lerror
+[?2004h1 - switchcase
+2 - pointer
+0
+[?2004l[?2004h]0;leosha@lptp-dllg515: /mnt/c/Debia
